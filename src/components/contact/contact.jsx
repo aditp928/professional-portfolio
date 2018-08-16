@@ -4,7 +4,6 @@ import RaisedButton from 'material-ui/RaisedButton';
 import isEmail from 'validator/lib/isEmail';
 import LinearProgress from 'material-ui/LinearProgress';
 import './contact.css';
-import ReactContactForm from 'react-mail-form';
 
 class ContactComponent extends Component {
   constructor(props) {
@@ -62,7 +61,6 @@ class ContactComponent extends Component {
   }
 
   submitData() {
-    <ReactContactForm to="aditp928@gmail.com"/>
     return fetch('https://gitter-connect.herokuapp.com/api/message', {
       method: 'POST',
       headers: {

@@ -109,6 +109,14 @@ class TimelineComponent extends Component {
                         <CardText expandable={true}>
                             June	2018 - Present.
                             <br/><br/>
+                            <br></br>
+                            In Conjunction with the Federal Aviation Agency this application allows drone operators to create flightplans and have them approved my the FAA.
+                            Application serves to promote safe and responsible flying.
+                            <br></br>
+                            <a target="_blank" href=" https://uss-aeronyde-stage.herokuapp.com//">
+                           LAANC Application Live Link
+                            </a>
+
                               <div className="timeline-entries">
                                 <div className="timeline-entry-chip">
                                   <Chip>ReactJs</Chip>
@@ -170,7 +178,10 @@ class TimelineComponent extends Component {
                           Feb 2018 - Present. <br></br><br></br>
 
                            An effort that stems from Autonomous Fleet Management platform development of Aeronyde Corporation. OpenSKY is an application for public use aimed at allowing for safe UAV(Unmanned Aerial Vehicle) integration into manned airspace between the general public, commercial operators(like Amazon), and regulatory bodies(like the FAA). By using FAA data, flight information and restrictions, and weather conditions, the application is creating a collaborative community for the public to be involved in creating a safer openSKY for everyone.
-
+                          <br></br><br></br>
+                           <a target="_blank" href="https://opensky1.herokuapp.com/">
+                            OpenSKY Application Live Link
+                            </a>
                           <div className="timeline-entries">
                             <div className="timeline-entry-chip">
                               <Chip>ReactJs</Chip>
