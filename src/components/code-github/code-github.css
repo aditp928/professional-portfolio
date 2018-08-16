@@ -3,6 +3,9 @@
   width: 100%;
 }
 
+.headline {
+  color: white
+}
 .teaser-img {
   float: left;
   height: 100%;

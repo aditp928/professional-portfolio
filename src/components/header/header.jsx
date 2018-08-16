@@ -60,9 +60,10 @@ class HeaderComponent extends Component {
             />
                 <h3>Adit Patel</h3>
                 <h6>Full Stack Developer</h6>
+                <h6>mobile: 407-920-7525</h6>
             </div>
             <div className="scroll-down-btn">
-              <FloatingActionButton mini={true} backgroundColor="#A80202" onClick={this.onScrollToIntro.bind(this)}>
+              <FloatingActionButton mini={true} backgroundColor="lightgreen" onClick={this.onScrollToIntro.bind(this)}>
                 <ArrowIcon />
               </FloatingActionButton>
             </div>

@@ -100,7 +100,7 @@ class TimelineComponent extends Component {
     render() {
         return (
             <div className="timeline">
-              <p className="headline">Relevant Work experience</p>
+              <p className="headlines">Relevant Work Experience</p>
                 <div className="timeline-entry">
                 <div className="timeline-entry">
                     <Card expanded={this.state.expanded1} onExpandChange={this.handleExpandChange}>

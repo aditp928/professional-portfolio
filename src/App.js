@@ -32,7 +32,7 @@ class App extends Component {
               <IntroductionComponent></IntroductionComponent>
             </div>
           </div>
-          <div className="section">
+          <div className="section dark">
             <div className="section-container">
               <TimelineComponent></TimelineComponent>
             </div>
@@ -57,12 +57,12 @@ class App extends Component {
               <CodeGithubComponent></CodeGithubComponent>
             </div>
           </div>
-          <div className="section">
+          <div className="section colored">
             <div className="section-container">
               <ContactComponent></ContactComponent>
             </div>
           </div>
-          <div className="section colored">
+          <div className="section dark">
             <div className="section-container footer-component">
               <FooterComponent></FooterComponent>
             </div>

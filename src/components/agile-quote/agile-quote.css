@@ -1,6 +1,7 @@
 .quote {
   position: relative;
   color: white;
+  font-size:20px;
 }
 
 .quote-content {
@@ -11,15 +12,16 @@
 
 .quote-marks {
   font-family: Arial;
-  font-size: 200px;
+  font-size: 100px;
   position: absolute;
   top: -50px;
-  opacity: 0.1;
+  color:white;
+
 }
 
 .quote-author {
   padding-left: 40px;
   display: inline-block;
   opacity: 0.8;
-  font-size: 12px;
+  font-size: 20px;
 }

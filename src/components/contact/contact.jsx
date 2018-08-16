@@ -84,19 +84,19 @@ class ContactComponent extends Component {
     return (
 
       <div className="contact">
-        <p className="headline">Contact</p>
-        <p>Please feel free to contact me</p>
+        <p className="headlines">Contact</p>
+        <p className="headlines">Please feel free to contact me</p>
           <TextField hintText="Name" floatingLabelText="Name" style={{
             "width": "100%"
           }} floatingLabelFocusStyle={{
-            "color": "#A80202"
+            "color": "white"
           }} underlineFocusStyle={{
-            "borderColor": "#A80202"
+            "borderColor": "white"
           }} onChange={e => this.onUpdateField('name', e)}/>
           <TextField hintText="E-mail" floatingLabelText="E-mail" type="email" style={{
             "width": "100%"
           }} floatingLabelFocusStyle={{
-            "color": "#A80202"
+            "color": "white"
           }} underlineFocusStyle={{
             "borderColor": "#A80202"
           }} onChange={e => this.onUpdateField('email', e)}/>

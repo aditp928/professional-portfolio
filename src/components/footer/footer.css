@@ -10,7 +10,7 @@
 }
 
 .link-list a {
-  color: rgba(22, 21, 28, 0.73);
+  color: white;
   text-decoration: none;
   margin-right: 5px;
   margin-left: 5px;
@@ -18,4 +18,8 @@
 
 .link-list a:first-of-type {
   margin-left: 0;
+}
+
+.footer {
+  color: white;
 }
