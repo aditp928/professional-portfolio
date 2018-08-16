@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 import './introduction.css';
 import Avatar from 'material-ui/Avatar';
+import ReactTooltip from 'react-tooltip'
 
 
 class IntroductionComponent extends Component {
     render() {
         return (
           <div className="introduction">
+
             <Avatar src="avatar.jpg" size={150}/>
             <p className="introduction-text">
              Programming has grown to become a real passion for me. I love any opportunity to come up with unique solutions to complex challenges.
