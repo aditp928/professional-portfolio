@@ -216,7 +216,7 @@ class TimelineComponent extends Component {
                 </div>
                 <div className="timeline-entry">
                   <Card expanded={this.state.expanded4} onExpandChange={this.handleExpandChange4}>
-                      <CardHeader title="Student" subtitle="University of Central Flordia"
+                      <CardHeader title="Student" subtitle="University of Central Florida"
                         actAsExpander={true} showExpandableButton={true}/>
                       <CardText expandable={true}>
                           January	2018	-	July 2018. <br></br><br></br> Full Stack Development Program
