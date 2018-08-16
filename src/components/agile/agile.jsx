@@ -14,7 +14,7 @@ class AgileComponent extends Component {
                 
                 
                 <br /> <br />
-                Through my work experience, I have become an expert on JIRA and Confluence. Key tools in optimizing software development workflows.
+                Through my work experience, I have become efficient with JIRA and Confluence. Key tools in optimizing software development workflows.
               </p>
           </div>
         );
