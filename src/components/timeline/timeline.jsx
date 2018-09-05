@@ -306,7 +306,7 @@ class TimelineComponent extends Component {
                        Bachelors of Science in Environmental Science and Policy
                          <br></br><br></br>
                         2014 - 2016. <br></br><br></br>
-                       Masters in Global Sustainaility (Energy and Water concentration)
+                       Masters in Global Sustainability (Energy and Water concentration)
                           <div className="timeline-entries">
                            
                           </div>
