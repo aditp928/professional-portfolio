@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './introduction.css';
 import Avatar from 'material-ui/Avatar';
-import ReactTooltip from 'react-tooltip'
 
 
 class IntroductionComponent extends Component {

@@ -7,6 +7,7 @@ import {
 import Chip from 'material-ui/Chip';
 import './timeline.css';
 
+
 class TimelineComponent extends Component {
     constructor(props) {
         super(props);
@@ -100,6 +101,22 @@ class TimelineComponent extends Component {
     render() {
         return (
             <div className="timeline">
+            <Particles 
+              params={{
+            		particles: {
+            			line_linked: {
+            				shadow: {
+            					enable: true,
+            					color: "#3CA9D1",
+            					blur: 5
+            				}
+            			}
+            		}
+            	}}
+              style={{
+                width: '100%'
+              }}
+            />
               <p className="headlines">Relevant Work Experience</p>
                 <div className="timeline-entry">
                 <div className="timeline-entry">
